@@ -1,0 +1,10 @@
+burger = document.querySelector('.burger')
+topnav = document.querySelector('.topnav')
+topnavleftul = document.querySelector('.topnavleftul')
+topnavright = document.querySelector('.topnavright')
+burger = document.querySelector('.burger')
+burger.addEventListener('click',()=>{
+    topnavleftul.classList.toggle('v-class-resp')
+    topnavright.classList.toggle('v-class-resp')
+    topnav.classList.toggle('h-nav-resp')
+})
